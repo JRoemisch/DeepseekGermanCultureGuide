@@ -5,8 +5,8 @@ from tqdm import tqdm
 
 # === CONFIGURATION ===
 MODEL_NAME = "unsloth/DeepSeek-R1-Distill-Qwen-7B-unsloth-bnb-4bit"
-INPUT_FILE = "askagerman_goethe.json"
-OUTPUT_FILE = "askagerman_goethe_augmented.json"
+INPUT_FILE = "datasets/askagerman_goethe.json"
+OUTPUT_FILE = "datasets/askagerman_goethe_augmented.json"
 MAX_NEW_TOKENS = 250  # Increase for longer responses
 BATCH_SIZE = 1  # Sequential processing for stability
 

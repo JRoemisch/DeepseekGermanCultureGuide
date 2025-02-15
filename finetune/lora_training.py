@@ -1,27 +1,24 @@
 # %% [markdown]
+# Based on
 # https://colab.research.google.com/drive/1AZghoNBQaMDgWJpi4RbffGM1h6raLUj9?usp=sharing#scrollTo=QYvyvuj5vd7H
 
 # %%
 import wandb
-import torch
 from unsloth import FastLanguageModel
-from transformers import TrainingArguments #, Trainer, DataCollatorForSeq2Seq
-# from datasets import load_dataset
+from transformers import TrainingArguments
 
 # %%
 from unsloth import FastLanguageModel
-import torch
 max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
 dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
 load_in_4bit = True # Use 4bit quantization to reduce memory usage. Can be False.
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    # model_name = "unsloth/DeepSeek-R1-Distill-Qwen-14B-unsloth-bnb-4bit",
-    model_name = "unsloth/DeepSeek-R1-Distill-Qwen-7B-unsloth-bnb-4bit",
+    model_name = "unsloth/DeepSeek-R1-Distill-Qwen-14B-unsloth-bnb-4bit",
+    # model_name = "unsloth/DeepSeek-R1-Distill-Qwen-7B-unsloth-bnb-4bit",
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
-    # token = "hf_...", # use one if using gated models like meta-llama/Llama-2-7b-hf
 )
 
 # %%
@@ -41,8 +38,8 @@ model = FastLanguageModel.get_peft_model(
 )
 
 # %%
-import numpy as np
 from datasets import Dataset
+from datasets import concatenate_datasets
 import json
 
 culture_prompt_format = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
@@ -59,13 +56,13 @@ Answer the following question trying to help a foreign tourist, exchange student
 
 {}"""
 
-with open("askagerman_augmented_small_1121_handfiltered.json", "r", encoding="utf-8") as f:
+with open("datasets/askagerman_augmented_small_1121_handfiltered.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Convert JSON objects to prompts
 reddit_formatted_data = [
-    #{"text": culture_prompt_format.format(item["input"], "", item["original_output"].split("<think>", 1)[1])} # Only use the output after the "<think>" tag
-    {"text": culture_prompt_format.format(item["input"], "", item["original_output"])} # Only use the output after the "<think>" tag
+    {"text": culture_prompt_format.format(item["input"], "", item["original_output"].split("<think>", 1)[1])} # Only use the output after the "<think>" tag
+    # {"text": culture_prompt_format.format(item["input"], "", item["original_output"])}
     for item in data
 ]
 
@@ -73,40 +70,38 @@ reddit_formatted_data = [
 reddit_dataset = Dataset.from_list(reddit_formatted_data)
 
 #%%
-with open("askagerman_goethe_augmented.json", "r", encoding="utf-8") as f:
+with open("datasets/askagerman_goethe_augmented.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Convert JSON objects to Alpaca prompts
 goethe_formatted_data = [
-    #{"text": culture_prompt_format.format(item["input"], "", item["augmented_output"].split("<think>", 1)[1])}
-    {"text": culture_prompt_format.format(item["input"], "", item["original_output"])} # Only use the output after the "<think>" tag
+    {"text": culture_prompt_format.format(item["input"], "", item["augmented_output"].split("<think>", 1)[1])} # Only use the output after the "<think>" tag
+    # {"text": culture_prompt_format.format(item["input"], "", item["original_output"])} 
     for item in data
 ]
 
 # Convert to Hugging Face Dataset
 goethe_dataset = Dataset.from_list(goethe_formatted_data)
 
+#%%
+# Add synthetic Data without reasoning to smaller goethe dataset to integrate into training.
+# with open("datasets/ChatGPT_Dataset.json", "r", encoding="utf-8") as f:
+#     data = json.load(f)
 
-with open("ChatGPT_Dataset.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+# # Convert JSON objects to Alpaca prompts
+# chatgpt_formatted_data = [
+#     {"text": culture_prompt_format.format(item["input"], "", item["output"])}
+#     for item in data
+# ]
 
-# Convert JSON objects to Alpaca prompts
-chatgpt_formatted_data = [
-    #{"text": culture_prompt_format.format(item["input"], "", item["augmented_output"].split("<think>", 1)[1])}
-    {"text": culture_prompt_format.format(item["input"], "", item["output"])} # Only use the output after the "<think>" tag
-    for item in data
-]
+# # Convert to Hugging Face Dataset
+# chatgpt_dataset = Dataset.from_list(chatgpt_formatted_data)
 
-# Convert to Hugging Face Dataset
-chatgpt_dataset = Dataset.from_list(chatgpt_formatted_data)
-
-from datasets import concatenate_datasets
-# conctinate datasets
-goethe_dataset = concatenate_datasets([goethe_dataset, chatgpt_dataset])
-
+# # concatenate datasets
+# goethe_dataset = concatenate_datasets([goethe_dataset, chatgpt_dataset])
 
 
-
+#%%
 # Determine dataset sizes
 len_reddit = len(reddit_dataset)
 len_goethe = len(goethe_dataset)
@@ -154,7 +149,7 @@ trainer = SFTTrainer(
     ),
 )
 
-wandb.init(project="lora_training_german_culture_bot", name="7B Balanced Reddit&Goethe_GPT_14B")
+wandb.init(project="lora_training_german_culture_bot", name="7B Balanced Reddit&Goethe")
 
 # %%
 trainer_stats = trainer.train()
@@ -167,8 +162,9 @@ trainer_stats = trainer.train()
 # [NOTE] This ONLY saves the LoRA adapters, and not the full model. To save to 16bit or GGUF, scroll down!
 
 # %%
-model.save_pretrained("lora_model_goethe_reddit_gpt_balanced_cot") # Local saving
-tokenizer.save_pretrained("lora_model_goethe_reddit_gpt_balanced_cot")
+model.save_pretrained("lora_model_goethe_reddit_balanced_cot") # Local saving
+tokenizer.save_pretrained("lora_model_goethe_reddit_balanced_cot")
 
 
+# Convert to GGUF and push to Huggingface (This was done in Google Colab, due to environment and disk space limitations)
 # model.push_to_hub_gguf("johannesromisch/culture_model7B", tokenizer, quantization_method = "q4_k_m", token = "my_token")
