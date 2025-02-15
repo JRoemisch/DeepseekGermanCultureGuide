@@ -1,0 +1,762 @@
+[
+  {
+    "input": "What is the best way to greet someone in Germany?",
+    "output": "In Germany, a firm handshake is the most common way to greet someone, especially in formal or business settings. Make eye contact while shaking hands. For casual settings among friends, a simple 'Hallo' or 'Hi' works fine."
+  },
+  {
+    "input": "How punctual should I be for a meeting in Germany?",
+    "output": "Punctuality is very important in Germany. Aim to arrive 5-10 minutes early for business meetings and formal events. Being late is often considered disrespectful, so if you're running late, inform the person in advance."
+  },
+  {
+    "input": "Can I speak English when I don't know German?",
+    "output": "Yes, many Germans speak English, especially in big cities like Berlin, Munich, or Frankfurt. However, it's appreciated if you make an effort to learn and use basic German phrases like 'Danke' (Thank you) or 'Entschuldigung' (Excuse me)."
+  },
+  {
+    "input": "What should I wear to a German wedding?",
+    "output": "German weddings are typically formal events. Men should wear suits, and women can wear elegant dresses or evening wear. Avoid overly casual clothing like jeans unless explicitly mentioned in the invitation."
+  },
+  {
+    "input": "What is the recycling system like in Germany?",
+    "output": "Germany has a very strict recycling system. Waste is usually separated into categories like paper, glass, plastics, and bio-waste. You'll often find color-coded bins: blue for paper, yellow for plastics, green for glass, and brown for organic waste. Make sure to sort your trash correctly, as this is taken seriously."
+  },
+  {
+    "input": "Are stores open on Sundays in Germany?",
+    "output": "No, most stores in Germany are closed on Sundays due to laws protecting Sunday as a day of rest. However, bakeries, gas stations, and shops in train stations are usually open."
+  },
+  {
+    "input": "What should I know about public transportation in Germany?",
+    "output": "Germany has an excellent public transportation system, including buses, trams, trains, and subways. Always buy a ticket and validate it before boarding. Riding without a valid ticket can lead to hefty fines."
+  },
+  {
+    "input": "How do Germans celebrate Christmas?",
+    "output": "Christmas is a major holiday in Germany, celebrated with Christmas markets, Advent calendars, and traditional meals. On Christmas Eve (Heiligabend), families exchange gifts and enjoy a festive dinner. St. Nicholas Day (Dec 6) is also significant, especially for children."
+  },
+  {
+    "input": "How do I address professors or officials in Germany?",
+    "output": "In formal settings, Germans value titles. Address professors and officials with their title and last name, such as 'Herr Professor Schmidt' or 'Frau Doktor Müller.' Using 'Sie' (formal you) instead of 'du' is also polite."
+  },
+  {
+    "input": "What are the dining etiquette rules in Germany?",
+    "output": "Keep your hands visible on the table (but not your elbows) and wait for the host to start eating or say 'Guten Appetit.' It's polite to clink glasses while maintaining eye contact and say 'Prost' during a toast."
+  },
+  {
+    "input": "How can I open a bank account in Germany as a student?",
+    "output": "To open a bank account, you'll need your passport, proof of address (Anmeldung), and proof of enrollment (Immatrikulationsbescheinigung). Popular student-friendly banks include Deutsche Bank, Sparkasse, and N26. Make sure to book an appointment in advance if needed."
+  },
+  {
+    "input": "What should I know about renting an apartment in Germany?",
+    "output": "Most apartments in Germany are rented unfurnished, often without light fixtures or kitchen appliances. You'll need a security deposit (Kaution), usually equivalent to 2-3 months' rent. Register your address (Anmeldung) within two weeks of moving in."
+  },
+  {
+    "input": "What is the legal drinking age in Germany?",
+    "output": "The legal drinking age in Germany is 16 for beer and wine and 18 for spirits. Drinking in public spaces is generally allowed, but always be respectful and mindful of local rules."
+  },
+  {
+    "input": "Is it okay to tip in Germany?",
+    "output": "Yes, tipping is customary in Germany. Round up the bill or leave about 5-10% as a tip in restaurants and taxis. Hand the tip directly to the person or specify the amount when paying."
+  },
+  {
+    "input": "How can I adapt to German work culture as an international student?",
+    "output": "German work culture values efficiency, punctuality, and direct communication. Always be on time, complete tasks promptly, and don’t hesitate to ask questions for clarification. Keep work-life balance in mind and respect boundaries during non-working hours."
+  },
+  {
+    "input": "What should I know about healthcare in Germany as a student?",
+    "output": "Health insurance is mandatory in Germany. Students can often use public health insurance providers like TK, AOK, or Barmer. Private insurance is also an option, but public insurance is usually cheaper and more widely accepted."
+  },
+  {
+    "input": "What are the major cultural values in Germany?",
+    "output": "Germans value punctuality, efficiency, and order. Direct communication, personal responsibility, and respect for rules are also key cultural values. They appreciate reliability and careful planning."
+  },
+  {
+    "input": "Is it rude to address someone by their first name in Germany?",
+    "output": "In formal settings, it’s considered impolite to use someone’s first name unless they invite you to do so. Use their title and last name, like 'Herr Schmidt' or 'Frau Müller,' especially in professional or academic situations."
+  },
+  {
+    "input": "What is 'Anmeldung' and why is it important?",
+    "output": "Anmeldung is the registration of your address in Germany. It’s mandatory for all residents and is required to open a bank account, get health insurance, or apply for a residence permit. You must complete it at your local Bürgeramt within two weeks of moving."
+  },
+  {
+    "input": "What do I need to know about German universities?",
+    "output": "German universities are highly focused on independent learning. Professors expect students to take initiative and manage their own studies. Semesters are divided into lecture periods and semester breaks, during which exams or internships may occur."
+  },
+  {
+    "input": "How do Germans celebrate Easter?",
+    "output": "Easter in Germany is celebrated with traditions like decorating eggs, Easter egg hunts, and special meals. Families may attend church services, and Good Friday and Easter Monday are public holidays."
+  },
+  {
+    "input": "What are the rules for riding a bicycle in Germany?",
+    "output": "Cyclists must follow traffic laws, ride in designated bike lanes, and use lights at night. Helmets are not legally required but highly recommended. Watch out for pedestrians, and always give way at crossings."
+  },
+  {
+    "input": "What is 'Pfand' and how does it work?",
+    "output": "Pfand is Germany’s deposit system for bottles and cans. When you buy a drink, you pay a small deposit, which is refunded when you return the bottle to a recycling machine at supermarkets."
+  },
+  {
+    "input": "What is the best way to meet new people in Germany?",
+    "output": "Join local clubs ('Vereine'), attend university events, or participate in language exchanges. Germans can be reserved initially, but joining shared activities is a great way to make connections."
+  },
+  {
+    "input": "Are there any unwritten rules for using public transportation in Germany?",
+    "output": "Yes. Always stand to the right on escalators to let others pass on the left. Keep your voice low, and avoid eating strong-smelling food. Validate your ticket before boarding or risk a fine."
+  },
+  {
+    "input": "What is the cost of living for a student in Germany?",
+    "output": "The average monthly cost for a student is around €850-€1,200. Rent is the biggest expense, ranging from €300-€600 depending on the city. Budget for health insurance, groceries, transportation, and leisure."
+  },
+  {
+    "input": "Can I work part-time as an international student in Germany?",
+    "output": "Yes, international students can work up to 120 full days or 240 half days per year. Make sure your visa allows it, and check for any restrictions based on your program."
+  },
+  {
+    "input": "What should I avoid discussing in Germany?",
+    "output": "Avoid controversial topics like World War II or making jokes about Nazi Germany. Be sensitive when discussing politics, religion, or immigration, as these can be divisive topics."
+  },
+  {
+    "input": "What are some traditional German dishes I should try?",
+    "output": "Try dishes like Bratwurst (grilled sausage), Sauerkraut (fermented cabbage), Schnitzel, and Pretzels. Don’t miss regional specialties like Bavarian Weißwurst or Berlin’s Currywurst."
+  },
+  {
+    "input": "How do Germans view personal space?",
+    "output": "Germans value personal space and prefer to keep a respectful distance when interacting. Avoid touching strangers or standing too close in queues or public places."
+  },
+  {
+    "input": "What is the healthcare system like in Germany?",
+    "output": "Germany has a dual public-private healthcare system. Public health insurance covers most medical expenses, and international students are usually required to enroll in public insurance unless exempted."
+  },
+  {
+    "input": "What do Germans usually do on Sundays?",
+    "output": "Sundays are considered a day of rest. Most shops are closed, and loud activities like mowing lawns are discouraged. People often spend time with family, go for walks, or relax."
+  },
+  {
+    "input": "What is a 'Wohnungsbesichtigung'?",
+    "output": "'Wohnungsbesichtigung' is a viewing appointment for a rental property. Be punctual and dress neatly. Bring all necessary documents, such as proof of income and a Schufa credit report, if possible."
+  },
+  {
+    "input": "What is 'Schufa,' and why do I need it?",
+    "output": "Schufa is Germany’s credit reporting agency. Landlords often require a Schufa report to assess your financial reliability before renting out an apartment."
+  },
+  {
+    "input": "What is 'German directness'?",
+    "output": "Germans are known for being direct and straightforward in communication. This is not meant to be rude but rather to ensure clarity. Avoid taking it personally."
+  },
+  {
+    "input": "How do I use German washing machines?",
+    "output": "German washing machines often have programs labeled in German. Common terms include 'Kochwäsche' (hot wash) for whites, 'Pflegeleicht' (delicates), and 'Schleudern' (spin cycle). Check your detergent type and water temperature before starting."
+  },
+  {
+    "input": "Can I smoke in public places in Germany?",
+    "output": "Smoking is allowed in many outdoor areas, but not indoors in most public spaces like restaurants or train stations. Designated smoking areas are available at some venues."
+  },
+  {
+    "input": "How can I open a blocked account (Sperrkonto) for my student visa?",
+    "output": "A blocked account is required to show proof of financial means for your student visa. You can open one through providers like Fintiba, Expatrio, or Deutsche Bank. Deposit the required amount, and the bank will issue proof for your visa application."
+  },
+  {
+    "input": "What is 'Studiengebühren,' and do I have to pay it?",
+    "output": "'Studiengebühren' refers to tuition fees. Most public universities in Germany don’t charge tuition for undergraduate programs, but some states may have fees for non-EU students or second degrees."
+  },
+  {
+    "input": "What are the main public holidays in Germany?",
+    "output": "Public holidays include New Year’s Day, Good Friday, Easter Monday, Labour Day (May 1), Christmas (Dec 25-26), and others. Note that some holidays vary by state, such as Oktoberfest-related holidays in Bavaria."
+  },
+  {
+    "input": "What are German Christmas markets like?",
+    "output": "Christmas markets (Weihnachtsmärkte) are a cherished tradition in Germany. They feature festive decorations, handmade crafts, mulled wine (Glühwein), and traditional foods like roasted nuts and bratwurst."
+  },
+  {
+    "input": "What is the difference between 'Sie' and 'du' in German?",
+    "output": "'Sie' is the formal way to say 'you,' used for strangers, professionals, and elders. 'Du' is informal and used with friends, family, and close colleagues. Always start with 'Sie' unless invited to switch to 'du.'"
+  },
+  {
+    "input": "What is the drinking culture like in Germany?",
+    "output": "Drinking is a social activity in Germany, often centered around beer. It’s common to toast with 'Prost!' while maintaining eye contact. Drinking responsibly is appreciated, and public drunkenness is frowned upon."
+  },
+  {
+    "input": "How can I travel cheaply around Germany?",
+    "output": "Use regional transport tickets like the 'Deutschlandticket' or group tickets. Look for discounts on Deutsche Bahn’s website, and consider long-distance buses like FlixBus for budget travel."
+  },
+  {
+    "input": "What are some German phrases that can help me adjust?",
+    "output": "Useful phrases include 'Guten Tag' (Good day), 'Entschuldigung' (Excuse me), 'Wie geht’s?' (How are you?), 'Ich spreche kein Deutsch' (I don’t speak German), and 'Wo ist…?' (Where is…?)."
+  },
+  {
+    "input": "What is the difference between 'Mitbewohner' and 'Untermieter' in Germany?",
+    "output": "'Mitbewohner' refers to a roommate with whom you share a flat, while 'Untermieter' is a subtenant who rents from the primary tenant. Ensure you understand your rental agreement to know your role."
+  },
+  {
+    "input": "How can I save money on groceries in Germany?",
+    "output": "Shop at discount supermarkets like Aldi, Lidl, or Penny. Buy fresh produce from weekly farmers’ markets or consider buying in bulk at stores like Metro if you have access."
+  },
+  {
+    "input": "What are 'Hausordnungen,' and do I need to follow them?",
+    "output": "'Hausordnungen' are house rules specific to your building. They often include quiet hours ('Ruhezeiten') and rules about cleaning shared spaces. They are legally binding and should be respected."
+  },
+  {
+    "input": "How does the German grading system work?",
+    "output": "Grades in Germany are on a 1.0 to 5.0 scale, where 1.0 is the best and 5.0 is a fail. Passing grades range from 1.0 (excellent) to 4.0 (satisfactory). Some universities also use percentages or additional remarks."
+  },
+  {
+    "input": "What is 'GEZ,' and do I have to pay it?",
+    "output": "'GEZ' refers to the German TV and radio license fee, now known as 'Rundfunkbeitrag.' All residents, including students, must pay it, regardless of whether they own a TV or radio."
+  },
+  {
+    "input": "What is 'Semesterbeitrag,' and what does it cover?",
+    "output": "The 'Semesterbeitrag' is a mandatory fee for all university students, covering administrative costs, student services, and a public transportation pass ('Semesterticket')."
+  },
+  {
+    "input": "What should I know about using German ATMs?",
+    "output": "Use ATMs from your bank or partner banks to avoid fees. Common banks include Deutsche Bank, Sparkasse, and Commerzbank. International cards are accepted but may incur extra charges."
+  },
+  {
+    "input": "Are there cultural differences in how Germans celebrate birthdays?",
+    "output": "Yes. In Germany, the birthday person is expected to host and provide food or drinks for guests. Never wish someone a happy birthday in advance; it’s considered bad luck."
+  },
+  {
+    "input": "How does the rental deposit ('Kaution') system work?",
+    "output": "The 'Kaution' is a security deposit, usually 2-3 months' rent, paid to the landlord. It’s returned at the end of your tenancy if there’s no damage or unpaid rent."
+  },
+  {
+    "input": "How can I make friends as a non-German speaker?",
+    "output": "Join international student groups, language exchanges, or sports clubs. Apps like Meetup or Tandem can also connect you with people who share your interests."
+  },
+  {
+    "input": "What are the typical opening hours for shops in Germany?",
+    "output": "Most shops are open from 9 AM to 8 PM on weekdays and Saturdays. On Sundays, only bakeries, gas stations, and convenience stores at train stations are open."
+  },
+  {
+    "input": "What should I do if I lose my residence permit?",
+    "output": "Report the loss immediately to the police and your local Ausländerbehörde (foreigners' office). They will guide you on how to apply for a replacement."
+  },
+  {
+    "input": "What is the etiquette for visiting a German home?",
+    "output": "Bring a small gift like flowers, wine, or chocolates for your host. Remove your shoes unless told otherwise, and be punctual. Thank your host by saying, 'Vielen Dank für die Einladung!'"
+  },
+  {
+    "input": "What is the best way to send packages within Germany?",
+    "output": "Use Deutsche Post, DHL, or Hermes for domestic shipping. Pack items securely and choose from services like standard delivery or express shipping depending on urgency."
+  },
+  {
+    "input": "What is the role of 'Verkehrsverbund' in public transport?",
+    "output": "'Verkehrsverbund' refers to a regional transportation network. It allows you to use a single ticket for buses, trams, and trains within the specified area, like the BVG in Berlin."
+  },
+  {
+    "input": "How do Germans celebrate New Year’s Eve?",
+    "output": "New Year’s Eve (Silvester) is celebrated with fireworks, parties, and traditional foods like raclette or fondue. Many people watch the comedy sketch 'Dinner for One' on TV."
+  },
+  {
+    "input": "What is 'Ruhezeit,' and when does it apply?",
+    "output": "'Ruhezeit' refers to quiet hours in residential areas, typically from 10 PM to 6 AM and during midday (1 PM to 3 PM). Avoid loud activities like playing music or drilling during these times."
+  },
+  {
+    "input": "How can I handle homesickness while studying in Germany?",
+    "output": "Stay connected with loved ones through regular calls or video chats. Join social groups, explore local activities, and remind yourself of the goals you’re achieving by being abroad."
+  },
+  {
+    "input": "What are the rules for recycling glass in Germany?",
+    "output": "Glass is sorted by color (green, brown, and white) and placed in designated containers. Avoid recycling glass during quiet hours to avoid disturbing neighbors."
+  },
+  {
+    "input": "What is 'Sperrmüll,' and how can I use it?",
+    "output": "'Sperrmüll' refers to bulky waste collection for items like furniture or large appliances. Schedule a pickup with your local waste management service or check for designated drop-off points."
+  },
+  {
+    "input": "What should I know about German supermarkets?",
+    "output": "Bring your own shopping bags, as plastic bags are not free. Use a coin (€0.50 or €1) for shopping carts. Be prepared to bag your groceries quickly at checkout."
+  },
+  {
+    "input": "Can I drink tap water in Germany?",
+    "output": "Yes, tap water in Germany is safe to drink unless otherwise indicated. Many Germans prefer bottled water, but tap water is both eco-friendly and cost-effective."
+  },
+  {
+    "input": "How do I extend my residence permit in Germany?",
+    "output": "Schedule an appointment at your local Ausländerbehörde well before your permit expires. Bring all necessary documents, such as proof of enrollment, health insurance, and financial means."
+  },
+  {
+    "input": "What should I do if I get a fine for public transport?",
+    "output": "If you’re caught without a valid ticket, you’ll be fined around €60. Pay the fine within the specified time to avoid additional fees. You can contest it if you believe it was issued unfairly."
+  },
+  {
+    "input": "What is 'Immatrikulationsbescheinigung,' and when do I need it?",
+    "output": "'Immatrikulationsbescheinigung' is your certificate of enrollment. You’ll need it for visa applications, health insurance, opening a bank account, and other official purposes."
+  },
+  {
+    "input": "How do Germans handle conflict?",
+    "output": "Germans value open, direct communication. Be clear and factual when discussing an issue. Avoid being overly emotional or confrontational, and focus on finding a solution."
+  },
+  {
+    "input": "What is 'Kindergeld,' and who is eligible?",
+    "output": "'Kindergeld' is a child benefit paid to parents to support their children. International students are generally not eligible unless they hold permanent residency or similar status."
+  },
+  {
+    "input": "What are some key phrases for grocery shopping in Germany?",
+    "output": "Useful phrases include: 'Wo finde ich ...?' (Where can I find ...?), 'Wie viel kostet das?' (How much does this cost?), and 'Ich brauche eine Tüte, bitte' (I need a bag, please)."
+  },
+  {
+    "input": "What are some popular weekend getaways in Germany?",
+    "output": "Explore cities like Heidelberg, Rothenburg ob der Tauber, or Dresden. For nature, visit the Black Forest, Bavarian Alps, or the Rhine Valley."
+  },
+  {
+    "input": "What is the etiquette for attending a lecture in Germany?",
+    "output": "Arrive on time, and don’t interrupt the professor unless invited to ask questions. Turn off your phone, and avoid disruptive behaviors like chatting or eating."
+  },
+  {
+    "input": "How do Germans typically view tipping in restaurants?",
+    "output": "Tipping is customary but not mandatory. Round up the bill or leave 5-10% as a tip. Hand the tip directly to the server or specify the total amount when paying."
+  },
+  {
+    "input": "What is the 'Deutschlandticket'?",
+    "output": "The 'Deutschlandticket' is a low-cost ticket for unlimited use of regional public transportation across Germany. It’s a popular choice for students and commuters."
+  },
+  {
+    "input": "What is the standard format for writing a CV in Germany?",
+    "output": "A German CV ('Lebenslauf') is concise, typically one to two pages, with sections for personal details, education, work experience, skills, and interests. Include a professional photo unless advised otherwise."
+  },
+  {
+    "input": "What are the tax implications of working part-time as a student?",
+    "output": "If you earn less than €520 per month, you won’t pay taxes. Earnings above this threshold may require you to file taxes, and social security contributions may apply."
+  },
+  {
+    "input": "What is 'Wohnungsgeberbestätigung,' and why is it important?",
+    "output": "'Wohnungsgeberbestätigung' is a landlord confirmation form required for address registration ('Anmeldung'). Your landlord must provide it when you move in."
+  },
+  {
+    "input": "How do Germans celebrate Carnival ('Karneval')?",
+    "output": "Carnival is celebrated with parades, costumes, and street parties, especially in regions like Cologne and Düsseldorf. It’s a festive time with traditions like throwing candies during parades."
+  },
+  {
+    "input": "What is 'Semesterferien,' and how is it used?",
+    "output": "'Semesterferien' are the semester breaks at German universities. Many students use this time for internships, part-time work, or travel, but exams may also occur during this period."
+  },
+  {
+    "input": "What is the cultural significance of Oktoberfest?",
+    "output": "Oktoberfest, held in Munich, is a celebration of Bavarian culture featuring traditional food, beer tents, and folk music. It attracts millions of visitors annually."
+  },
+  {
+    "input": "What should I know about German bakeries?",
+    "output": "German bakeries offer a wide variety of fresh bread, rolls, and pastries. Try specialties like 'Brezel' (pretzel), 'Vollkornbrot' (whole-grain bread), and 'Schwarzwälder Kirschtorte' (Black Forest cake)."
+  },
+  {
+    "input": "How can I deal with the high cost of rent in big German cities?",
+    "output": "Consider sharing an apartment with roommates to lower costs. Look for apartments in less central areas or student residences. Some cities like Leipzig or Dresden may offer more affordable options."
+  },
+  {
+    "input": "What are the rules for using the bicycle lanes in Germany?",
+    "output": "Bicycle lanes must be used by cyclists, and pedestrians should avoid walking in them. Always signal when turning and follow traffic lights. Be aware of other cyclists and pedestrians."
+  },
+  {
+    "input": "How do I apply for a student visa in Germany?",
+    "output": "You must provide proof of enrollment at a German university, financial support, health insurance, and accommodation. Apply at the German embassy or consulate in your home country."
+  },
+  {
+    "input": "Are there any common phrases for getting help in Germany?",
+    "output": "Try saying, 'Könnten Sie mir bitte helfen?' (Could you please help me?) or 'Entschuldigung, wo ist ...?' (Excuse me, where is ...?). Politeness is highly valued in Germany."
+  },
+  {
+    "input": "What is the 'Bürgeramt,' and when should I go there?",
+    "output": "The 'Bürgeramt' is the local citizen office where you can register your address ('Anmeldung'), renew your residence permit, and apply for various administrative services."
+  },
+  {
+    "input": "What is the importance of having health insurance as a student?",
+    "output": "Health insurance is mandatory for all students in Germany. It covers medical treatments and emergencies, and failure to have it could affect your visa or residence permit."
+  },
+  {
+    "input": "What should I know about German grocery store etiquette?",
+    "output": "Be prepared to bag your groceries quickly, as cashiers usually work fast. Make sure to bring your own shopping bags, as plastic bags are not provided for free in most stores."
+  },
+  {
+    "input": "How can I adjust to the different meal times in Germany?",
+    "output": "In Germany, breakfast is usually light, lunch is the main meal (around 12-2 PM), and dinner is often a lighter meal. Try to adapt your schedule to these meal times."
+  },
+  {
+    "input": "What should I do if I want to cancel my gym membership in Germany?",
+    "output": "Review your contract carefully, as gym memberships often have long cancellation periods. Contact the gym with a written request (either by mail or email), and keep proof of cancellation."
+  },
+  {
+    "input": "What is 'Mietpreisbremse,' and how does it affect rent prices?",
+    "output": "The 'Mietpreisbremse' (rent brake) is a law that limits rent increases in certain areas. It aims to protect tenants by capping rent prices at a certain percentage above the average local rent."
+  },
+  {
+    "input": "What is the best way to improve my German language skills while studying?",
+    "output": "Immerse yourself in the language by speaking with native speakers, attending language meetups, watching German TV shows or movies, and using language-learning apps like Duolingo or Babbel."
+  },
+  {
+    "input": "How does the public transportation system work in Germany?",
+    "output": "Germany’s public transport system is reliable and well-connected, including trains (Deutsche Bahn), trams, buses, and subways. Tickets must be purchased before boarding, and fines are given for fare evasion."
+  },
+  {
+    "input": "What is a 'Bafög' and who is eligible for it?",
+    "output": "'Bafög' is financial aid for students in Germany. It’s available to German students and international students with specific residence statuses, covering tuition, rent, and living expenses."
+  },
+  {
+    "input": "How do I set up a bank account in Germany?",
+    "output": "To open a bank account, you need proof of address, your passport or ID, and enrollment confirmation from your university. Many banks, such as Deutsche Bank or N26, offer student-friendly accounts."
+  },
+  {
+    "input": "What should I know about the German concept of 'Pünktlichkeit' (punctuality)?",
+    "output": "Punctuality is highly valued in Germany. Arriving late to appointments or meetings is considered disrespectful. Always try to arrive a few minutes early to avoid being late."
+  },
+  {
+    "input": "How does the German grading system compare to my home country's system?",
+    "output": "Germany uses a grading system from 1.0 (best) to 5.0 (fail), with most passing grades between 1.0 and 4.0. In some countries, grades might be higher or have different scales, so check with your university."
+  },
+  {
+    "input": "What do I do if I need an emergency contact while living in Germany?",
+    "output": "If you need an emergency contact, dial 112 for fire and medical emergencies. For police, dial 110. Make sure to keep important contact numbers like your university’s international office or embassy on hand."
+  },
+  {
+    "input": "What is the 'Abmeldebescheinigung,' and why do I need it?",
+    "output": "The 'Abmeldebescheinigung' is the certificate of deregistration when you move out of Germany. It’s important to provide this when you leave the country or change your address."
+  },
+  {
+    "input": "Can I legally work while studying in Germany?",
+    "output": "Yes, as an international student, you can work up to 120 full days or 240 half days per year. Jobs can be on campus or in the wider community, but your earnings may be taxed if you exceed the limit."
+  },
+  {
+    "input": "What is 'Schwarzfahren,' and what are the consequences?",
+    "output": "'Schwarzfahren' means riding public transport without a valid ticket. If caught, you’ll face a fine of up to €60, and potentially more if you fail to pay within the specified period."
+  },
+  {
+    "input": "How do I understand the German concept of 'Freizeit' (leisure)?",
+    "output": "Germans value their 'Freizeit' and often engage in organized activities during their free time. It’s common to spend weekends hiking, visiting museums, or participating in group sports."
+  },
+  {
+    "input": "How do I deal with bureaucratic delays in Germany?",
+    "output": "Be patient and prepared. Bureaucracy in Germany can be slow, so make sure to submit all required documents and follow up with the relevant authorities. Always keep copies of your applications."
+  },
+  {
+    "input": "What should I do if I need to change my address in Germany?",
+    "output": "Update your address with the Bürgeramt, your bank, and any other institutions you’re involved with. Make sure to inform your university and other service providers as well."
+  },
+  {
+    "input": "What is the best way to find a part-time job in Germany?",
+    "output": "Look for job listings on websites like Indeed, LinkedIn, or local university job portals. Networking with professors and classmates can also help you find job opportunities."
+  },
+  {
+    "input": "How do Germans handle conflict in professional settings?",
+    "output": "In professional settings, Germans tend to be direct and solution-oriented. They value clear communication and prefer addressing issues openly rather than avoiding them."
+  },
+  {
+    "input": "What are the best apps for international students in Germany?",
+    "output": "Some useful apps include DB Navigator for train schedules, Google Translate for language assistance, and Semesterticket for transport. You can also use Meetup for connecting with local groups."
+  },
+  {
+    "input": "What is 'Kreditkarte' in Germany, and should I get one?",
+    "output": "A 'Kreditkarte' is a credit card, and while many Germans use debit cards, a credit card can be useful for traveling and for online purchases. Many banks offer student credit cards."
+  },
+  {
+    "input": "How do I meet new people in Germany as an international student?",
+    "output": "Join student organizations or university clubs. Attend international student events, participate in language exchanges, and explore local cafes or activities to meet new people."
+  },
+  {
+    "input": "How does the 'Recht auf Bildung' (right to education) work in Germany?",
+    "output": "Germany guarantees the right to education to all students, and public universities offer low-cost or free tuition. This right includes access to various academic resources and support services."
+  },
+  {
+    "input": "What should I do if I get lost in a German city?",
+    "output": "Use maps or GPS on your phone to find your way, or ask someone for directions using polite phrases like 'Entschuldigung, wo ist ...?' (Excuse me, where is ...?). Most Germans speak English."
+  },
+  {
+    "input": "How do I use a 'Fahrschein' (ticket) on public transportation?",
+    "output": "Tickets can be bought at ticket machines or apps. Make sure to validate your ticket before boarding in some cities, and remember that ticket checks are common on trains and buses."
+  },
+  {
+    "input": "What is 'Tag der Deutschen Einheit,' and how is it celebrated?",
+    "output": "Tag der Deutschen Einheit (Day of German Unity) is celebrated on October 3 to mark the reunification of East and West Germany in 1990. It’s a public holiday with celebrations and events nationwide."
+  },
+  {
+    "input": "What is 'Wahlrecht,' and do I have it as an international student?",
+    "output": "'Wahlrecht' is the right to vote. As an international student, you typically cannot vote in national elections, but you can vote in local elections depending on your residency status."
+  },
+  {
+    "input": "What are the best cultural festivals to attend in Germany?",
+    "output": "Some popular cultural festivals include Oktoberfest in Munich, Karneval in Cologne, and the Berlin Film Festival. Each region has its own unique celebrations and traditions."
+  },
+  {
+    "input": "How do I sign up for health insurance in Germany?",
+    "output": "International students must sign up for statutory health insurance with providers like Techniker Krankenkasse or AOK. Proof of insurance is required for university registration and visa renewal."
+  },
+  {
+    "input": "What should I know about traveling on the 'Intercity-Express' (ICE) trains?",
+    "output": "The ICE is Germany's high-speed train network. It connects major cities and offers comfort, including Wi-Fi and power outlets. Tickets can be purchased online or at the station."
+  },
+  {
+    "input": "What does 'Guten Appetit' mean in Germany?",
+    "output": "'Guten Appetit' means 'Enjoy your meal.' It’s commonly said before meals in Germany as a polite gesture."
+  },
+  {
+    "input": "How do I apply for a residence permit extension in Germany?",
+    "output": "To extend your residence permit, make an appointment at the local Ausländerbehörde well in advance of the expiry date. Bring required documents such as proof of financial stability and enrollment."
+  },
+  {
+    "input": "How do I report a problem with my accommodation in Germany?",
+    "output": "If you have a problem with your accommodation, first contact your landlord or property management. If the issue persists, you can escalate it to a local tenant association (Mieterverein) for advice."
+  },
+  {
+    "input": "Can I use my international driver's license in Germany?",
+    "output": "Yes, you can use an international driver's license in Germany for up to six months. After that, you need to apply for a German driving license."
+  },
+  {
+    "input": "What is a 'Stammtisch' in German culture?",
+    "output": "A 'Stammtisch' is a regular meeting or gathering, often in a pub or restaurant, where friends or colleagues meet to chat, drink, and socialize."
+  },
+  {
+    "input": "How can I participate in volunteer work in Germany?",
+    "output": "Look for volunteer opportunities through organizations like 'Freiwilligenagentur' or check with your university. Many non-profit organizations also offer programs for students."
+  },
+  {
+    "input": "What is 'Germans' approach to work-life balance?",
+    "output": "Germans value a good work-life balance, with clear boundaries between work and personal life. Working overtime is less common, and vacations are an important part of the culture."
+  },
+  {
+    "input": "How do I get internet access in Germany?",
+    "output": "You can get internet access in Germany by choosing between a mobile data plan or a broadband contract with providers like Deutsche Telekom, Vodafone, or 1&1. Make sure to compare plans before committing."
+  },
+  {
+    "input": "What is 'Karneval' in Germany?",
+    "output": "Karneval, or Fasching, is a traditional pre-Lenten festival celebrated in many parts of Germany. It involves parades, costumes, and parties, particularly in cities like Cologne and Mainz."
+  },
+  {
+    "input": "How do I join a gym in Germany?",
+    "output": "To join a gym in Germany, visit local gyms or look for chain gyms like 'Fitness First' or 'McFit.' Most gyms offer monthly contracts, but some may also require an annual commitment."
+  },
+  {
+    "input": "What is 'Schwarzfahren' in German public transport?",
+    "output": "'Schwarzfahren' refers to riding public transport without a valid ticket, which is illegal and can result in a fine. Always ensure you have a valid ticket before boarding."
+  },
+  {
+    "input": "What is a 'Mietvertrag' in Germany?",
+    "output": "A 'Mietvertrag' is a rental contract in Germany. It outlines the terms of the rental, such as the rent amount, duration of the lease, and tenant responsibilities."
+  },
+  {
+    "input": "How do I find a doctor in Germany?",
+    "output": "You can find a doctor in Germany through online directories like 'Jameda' or by asking your university for recommendations. Many doctors require a prior appointment."
+  },
+  {
+    "input": "How does the German health insurance system work?",
+    "output": "Germany has a dual health insurance system: statutory (public) health insurance and private health insurance. As a student, you are generally required to have public health insurance unless you're eligible for private insurance."
+  },
+  {
+    "input": "Can I get a part-time job while studying in Germany?",
+    "output": "Yes, international students in Germany are allowed to work part-time. You can work up to 120 full days or 240 half days per year. Make sure to follow tax and work permit regulations."
+  },
+  {
+    "input": "What is a 'Spargelzeit' in Germany?",
+    "output": "'Spargelzeit' refers to the asparagus season in Germany, typically in the spring. White asparagus is a local delicacy, and it is celebrated with special dishes and festivals."
+  },
+  {
+    "input": "How do I get a SIM card in Germany?",
+    "output": "You can buy a SIM card from providers like Telekom, Vodafone, or O2 at mobile shops or supermarkets. You'll need an ID and proof of residence to register the card."
+  },
+  {
+    "input": "What is 'Märchen' in German culture?",
+    "output": "'Märchen' refers to traditional fairy tales in German culture, such as those written by the Brothers Grimm. These stories, like 'Cinderella' and 'Snow White,' are an important part of Germany’s literary heritage."
+  },
+  {
+    "input": "How do I find a quiet place to study in Germany?",
+    "output": "Many universities have dedicated study rooms or libraries where you can find a quiet place. Additionally, cafés or public libraries are good options for a peaceful study environment."
+  },
+  {
+    "input": "How do I cook a traditional German meal?",
+    "output": "To cook a traditional German meal, try dishes like 'Sauerbraten' (pot roast), 'Bratwurst' (sausage), or 'Kartoffelsalat' (potato salad). You can find recipes online or buy ingredients at local supermarkets like Rewe or Aldi."
+  },
+  {
+    "input": "How do I handle the cold winters in Germany?",
+    "output": "To handle the cold winters in Germany, dress warmly in layers, especially for outdoor activities. Make sure to wear a good coat, hat, gloves, and thermal clothing during the colder months."
+  },
+  {
+    "input": "What is 'Weihnachten' in Germany?",
+    "output": "'Weihnachten' is Christmas in Germany, celebrated with family gatherings, Christmas markets, and festive foods. It's a time of giving, with traditional gifts and meals like roasted goose."
+  },
+  {
+    "input": "What does 'Pünktlichkeit' mean in German culture?",
+    "output": "'Pünktlichkeit' means punctuality. In Germany, being on time is highly valued, whether it's for meetings, social events, or appointments."
+  },
+  {
+    "input": "How do I manage my finances as an international student in Germany?",
+    "output": "To manage your finances, create a budget and keep track of your spending. Use apps to monitor your bank account and try to save on living costs by cooking at home and using public transportation."
+  },
+  {
+    "input": "What are the most important holidays in Germany?",
+    "output": "The most important holidays in Germany include Christmas ('Weihnachten'), Easter ('Ostern'), New Year's Day ('Neujahrstag'), and German Unity Day ('Tag der Deutschen Einheit')."
+  },
+  {
+    "input": "How can I improve my German language skills?",
+    "output": "To improve your German skills, practice speaking with native speakers, use language exchange apps, attend language courses at your university, and watch German TV shows or movies with subtitles."
+  },
+  {
+    "input": "What is 'Bier' culture in Germany?",
+    "output": "'Bier' (beer) is a central part of German culture. Germany is famous for its variety of beers, such as 'Pils,' 'Weißbier,' and 'Kölsch.' Many regions have their own beer specialties, and beer is often enjoyed in 'Biergarten' (beer gardens)."
+  },
+  {
+    "input": "What are 'Gummibärchen' in Germany?",
+    "output": "'Gummibärchen' are gummy bears, a popular candy in Germany. They are small, fruit-flavored, chewy candies that are widely loved both in Germany and around the world."
+  },
+  {
+    "input": "What should I do if I get sick in Germany?",
+    "output": "If you get sick, visit a general practitioner ('Hausarzt'). If it's an emergency, you can call an ambulance at 112. As a student, ensure you have health insurance to cover medical costs."
+  },
+  {
+    "input": "What does 'Abitur' mean in the German education system?",
+    "output": "'Abitur' is the final exam that students in Germany take at the end of high school, which qualifies them for university admission. It is an important step in a student’s academic journey."
+  },
+  {
+    "input": "How do I register for university courses in Germany?",
+    "output": "To register for courses, log into your university's online portal and select the courses you want to attend. Be sure to check course prerequisites and deadlines for registration."
+  },
+  {
+    "input": "How do I understand German bureaucracy?",
+    "output": "German bureaucracy can be complex, so it's important to stay organized. Read all official documents carefully, ask questions when necessary, and seek help from university support services or local advisory offices."
+  },
+  {
+    "input": "What are some safety tips for international students in Germany?",
+    "output": "To stay safe, be cautious of your surroundings, avoid walking alone late at night in unfamiliar areas, and keep emergency numbers handy. Learn the local language and emergency procedures."
+  },
+  {
+    "input": "How can I travel around Germany on a budget?",
+    "output": "To travel on a budget, consider using buses or regional trains like 'FlixBus' or 'Deutsche Bahn’s Sparpreis' tickets. Booking early can help you get cheaper fares, and group discounts are available."
+  },
+  {
+    "input": "What are 'Fahrradwege' in Germany?",
+    "output": "'Fahrradwege' are bike lanes in Germany. Cycling is a popular mode of transport, and most cities have dedicated bike paths for safety."
+  },
+  {
+    "input": "What is the best way to open a bank account in Germany?",
+    "output": "To open a bank account in Germany, visit a bank branch with your ID, proof of address, and sometimes a student enrollment certificate. Many banks also offer online account setup options."
+  },
+  {
+    "input": "How does tipping work in Germany?",
+    "output": "In Germany, tipping is customary but not mandatory. It’s common to round up the bill or leave 5-10% at restaurants and cafes. For taxis, rounding up is also appreciated."
+  },
+  {
+    "input": "What is a 'Bürgeramt' in Germany?",
+    "output": "'Bürgeramt' is a local government office where you can register your address, apply for documents like a residence permit, and take care of other official administrative tasks."
+  },
+  {
+    "input": "What is the 'Berufsausbildung' system in Germany?",
+    "output": "'Berufsausbildung' refers to vocational training in Germany, where students learn a trade through a combination of classroom education and apprenticeships in companies."
+  },
+  {
+    "input": "What is 'Brotzeit' in German culture?",
+    "output": "'Brotzeit' refers to a traditional German snack or meal, often consisting of bread, cold cuts, cheese, and pickles. It’s a light meal enjoyed during the day, especially in Bavaria."
+  },
+  {
+    "input": "What is the German grading system like?",
+    "output": "The German grading system uses a scale from 1 (very good) to 5 (fail). A grade of 1.0 to 1.5 is considered excellent, while 4.0 is the passing grade."
+  },
+  {
+    "input": "What is a 'Wohnheim' in Germany?",
+    "output": "'Wohnheim' is a student dormitory in Germany. It is an affordable living option for students, often managed by the university or a student union."
+  },
+  {
+    "input": "How do I file taxes as an international student in Germany?",
+    "output": "International students in Germany generally don’t have to pay taxes unless they earn above a certain threshold. If you do need to file taxes, you can do it online via the ELSTER portal or seek help from a tax consultant."
+  },
+  {
+    "input": "What is 'Pfand' in Germany?",
+    "output": "'Pfand' is a deposit system for bottles and cans in Germany. When you buy a drink in a bottle or can, you pay a deposit. After finishing the drink, you return the bottle to get the deposit back."
+  },
+  {
+    "input": "What is 'Spätzle' in German cuisine?",
+    "output": "'Spätzle' is a type of egg noodle from Swabia, often served as a side dish with meat, gravy, or in dishes like 'Käsespätzle' (cheese noodles)."
+  },
+  {
+    "input": "How do I navigate the public transportation system in Germany?",
+    "output": "In Germany, public transport includes trains, buses, and trams. You can buy tickets via machines, apps, or at ticket counters. Make sure to check schedules and routes, especially in larger cities like Berlin and Munich."
+  },
+  {
+    "input": "What is 'Oktoberfest' in Germany?",
+    "output": "Oktoberfest is a famous beer festival held in Munich every year, where people from around the world gather to enjoy beer, Bavarian food, music, and traditional costumes."
+  },
+  {
+    "input": "What is 'Hofbräuhaus' in Munich?",
+    "output": "'Hofbräuhaus' is a famous beer hall in Munich, established in 1589. It’s a popular destination for locals and tourists alike to enjoy traditional Bavarian beer, food, and music."
+  },
+  {
+    "input": "What does 'Gemütlichkeit' mean in German?",
+    "output": "'Gemütlichkeit' is a concept in German culture that refers to a warm, cozy, and friendly atmosphere, often experienced when spending time with friends and family in a comfortable setting."
+  },
+  {
+    "input": "How can I get a student discount in Germany?",
+    "output": "In Germany, students can get discounts on transportation, museums, and other activities by showing their student ID (e.g., 'Studentenausweis'). Many places offer reduced prices for students."
+  },
+  {
+    "input": "What is a 'Biergarten' in Germany?",
+    "output": "A 'Biergarten' is an outdoor beer garden, often located in parks or near breweries. It's a place where people gather to enjoy beer, food, and socialize, especially during the summer."
+  },
+  {
+    "input": "How do I buy groceries in Germany?",
+    "output": "You can buy groceries in supermarkets like Aldi, Lidl, or Rewe. Many cities also have weekly markets where you can find fresh produce. Don’t forget to bring a reusable bag!"
+  },
+  {
+    "input": "What is 'Gute Laune' in German?",
+    "output": "'Gute Laune' means good mood or positive attitude. Germans value staying cheerful and optimistic, and it's often used to describe the atmosphere at social events or gatherings."
+  },
+  {
+    "input": "What is the importance of 'Maß' during Oktoberfest?",
+    "output": "'Maß' refers to a liter of beer, commonly served at Oktoberfest. It's a symbol of Bavarian tradition and an essential part of the festival experience."
+  },
+  {
+    "input": "What does 'Tschüss' mean in German?",
+    "output": "'Tschüss' is an informal way to say goodbye in German. It’s commonly used among friends and in casual settings."
+  },
+  {
+    "input": "What is 'Kaffee und Kuchen' in German culture?",
+    "output": "'Kaffee und Kuchen' is a traditional German afternoon tea time, where people gather to drink coffee and eat cakes. It's a time to relax and socialize."
+  },
+  {
+    "input": "How do I register my car in Germany?",
+    "output": "To register a car in Germany, you need to visit the 'Kfz-Zulassungsstelle' (vehicle registration office) with documents like your ID, proof of insurance, and car inspection certificate."
+  },
+  {
+    "input": "What are the different types of public transport in Germany?",
+    "output": "Germany has a variety of public transport options, including trains (S-Bahn, U-Bahn), buses, trams, and taxis. You can use the 'Deutsche Bahn' app for train schedules and other local transit apps for buses and trams."
+  },
+  {
+    "input": "What are 'Weihnachtsmärkte' in Germany?",
+    "output": "'Weihnachtsmärkte' are Christmas markets, held in many cities across Germany. They are filled with festive stalls selling crafts, food, mulled wine, and holiday decorations."
+  },
+  {
+    "input": "What should I know about recycling in Germany?",
+    "output": "Germany is very strict about recycling. You must separate your waste into different categories, including paper, plastics, glass, and biodegradable waste. Follow the local regulations for waste disposal."
+  },
+  {
+    "input": "What is a 'Bierstube' in Germany?",
+    "output": "'Bierstube' is a traditional German pub, where you can enjoy beer, hearty food, and often live music. It's a more rustic and cozy version of a 'Biergarten.'"
+  },
+  {
+    "input": "How do I exchange currency in Germany?",
+    "output": "You can exchange currency at banks, exchange offices, or ATMs. Credit cards are widely accepted, but it’s good to carry some cash for small purchases or places that don't take cards."
+  },
+  {
+    "input": "What is 'Faschingsdienstag' in Germany?",
+    "output": "'Faschingsdienstag' is the Tuesday before Ash Wednesday and marks the end of the Carnival season. It is celebrated with parades, parties, and costumes, particularly in cities like Cologne and Mainz."
+  },
+  {
+    "input": "What is a 'Rewe' store in Germany?",
+    "output": "'Rewe' is a popular supermarket chain in Germany, offering groceries, household goods, and fresh produce. It’s one of the largest supermarket chains in the country."
+  },
+  {
+    "input": "What is the 'Bierdeckel' in German pubs?",
+    "output": "'Bierdeckel' refers to a beer coaster used in German pubs to place under your glass. It’s often used as a tool for tracking orders in a traditional pub setting."
+  },
+  {
+    "input": "What are the key characteristics of 'German engineering'?",
+    "output": "German engineering is known for precision, durability, and innovation. This reputation stems from industries like automotive (BMW, Mercedes-Benz) and manufacturing (Siemens, Bosch)."
+  },
+  {
+    "input": "What is 'Frühstück' in Germany?",
+    "output": "'Frühstück' is the traditional German breakfast, which often includes bread rolls, cold cuts, cheese, butter, jam, and coffee or tea."
+  },
+  {
+    "input": "How do I get a residence permit in Germany?",
+    "output": "To get a residence permit, you need to apply at the local immigration office ('Ausländerbehörde') with your passport, visa, and proof of your purpose of stay (study, work, etc.)."
+  },
+  {
+    "input": "What are 'Hochzeiten' in Germany?",
+    "output": "'Hochzeiten' refers to weddings in Germany, often celebrated with a formal ceremony followed by a reception with food, music, and dancing."
+  },
+  {
+    "input": "How do I make an appointment with a doctor in Germany?",
+    "output": "To make an appointment with a doctor, you can call the clinic directly or book online, depending on the practice. For specialists, you may need a referral from your general practitioner."
+  }
+]
