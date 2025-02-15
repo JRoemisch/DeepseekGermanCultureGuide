@@ -1,0 +1,294 @@
+[
+    {
+        "input": "How should I greet someone in Germany?",
+        "output": "Greetings in Germany are often formal. A quick, firm handshake with direct eye contact is the traditional greeting. A man should wait until a woman offers her hand first. Titles are important, so use a person's academic title and surname until invited to use their first name. Always use 'Sie' instead of 'Du' unless explicitly offered."
+    },
+    {
+        "input": "What is considered polite when visiting a German home?",
+        "output": "When visiting a German home, it is polite to bring a small gift, such as fine chocolates, wine, or flowers. Avoid giving red roses (romantic), carnations (mourning), or chrysanthemums (funerals). Arrive on time, as punctuality is valued. Some homes expect guests to remove their shoes; asking beforehand is a good practice."
+    },
+    {
+        "input": "How should I behave in a German restaurant?",
+        "output": "In German restaurants, it is common for each person to pay for their own meal unless explicitly invited. Tipping is customary, usually around 5-10%. Wait for the host to initiate a toast before drinking alcohol. If sharing a table with strangers in informal settings, socializing is not expected."
+    },
+    {
+        "input": "What are some key table manners in Germany?",
+        "output": "Table manners in Germany follow the Continental style: the fork is held in the left hand and the knife in the right while eating. Keep your hands visible on the table but do not rest your elbows. Do not begin eating until the host says 'Guten Appetit'. Finish everything on your plate, and place your knife and fork diagonally on the plate when done."
+    },
+    {
+        "input": "What should I know about public behavior in Germany?",
+        "output": "Public behavior in Germany emphasizes respect and personal space. Making direct eye contact is common but does not necessarily mean an invitation to interact. Chewing gum while speaking to someone is considered rude. Supermarket checkout lines move quickly, so be prepared to bag your groceries efficiently. Public drunkenness is frowned upon, even though beer consumption is common."
+    },
+    {
+        "input": "How should I communicate with Germans in a professional setting?",
+        "output": "German communication in professional settings is direct and formal. Avoid unnecessary small talk, and expect conversations to be to the point. Emails and written documentation are valued to maintain records of discussions and decisions. If you need to meet someone, schedule an appointment in advance, as impromptu visits are not common."
+    },
+    {
+        "input": "What is the dress code in a German workplace?",
+        "output": "In most professional settings, German business dress is formal and conservative, with dark suits for men and understated professional attire for women. Universities and academic environments tend to have a more relaxed dress code, though expectations may vary between faculties."
+    },
+    {
+        "input": "What is the German approach to time management?",
+        "output": "Germans value punctuality and precise scheduling. Appointments should be arranged well in advance and should not be changed on short notice. Being late without notifying the other party is considered disrespectful. Meetings follow strict agendas, and efficiency is highly valued."
+    },
+    {
+        "input": "How do Germans separate personal and professional life?",
+        "output": "Germans tend to keep personal and professional lives separate. Work relationships do not require a personal connection, and socializing after work is less common. Privacy is valued, and workplace interactions are usually task-focused rather than personal."
+    },
+    {
+        "input": "What should I avoid discussing in Germany?",
+        "output": "While Germans enjoy serious discussions about politics and philosophy, avoid making Nazi references in casual conversation, as this is considered an absolute taboo. Be cautious when discussing immigration or identity, as Germany is traditionally a monocultural society but has become increasingly multicultural."
+    },
+    {
+        "input": "How do Germans view planning and organization?",
+        "output": "Germans are known for their strong planning culture. They value careful preparation and prefer to know what they will be doing well in advance. Rules and regulations provide a sense of security, and once an efficient method is established, there is little need to change it."
+    },
+    {
+        "input": "How should I introduce myself in Germany?",
+        "output": "When introducing yourself in Germany, use your full name and, if applicable, your title. A firm handshake with eye contact is customary. If in a formal setting, wait to be introduced rather than introducing yourself."
+    },
+    {
+        "input": "How should I address someone in Germany?",
+        "output": "In Germany, use formal titles such as 'Herr' (Mr.) or 'Frau' (Mrs.) followed by the person's last name. Academic titles are also important. You should use the formal 'Sie' form of address until invited to use the informal 'Du'."
+    },
+    {
+        "input": "What are some common German greeting customs?",
+        "output": "Germans typically greet with a firm handshake and direct eye contact. In formal settings, it is best to wait for the host to introduce you. When entering a room, greet everyone individually, including children."
+    },
+    {
+        "input": "What should I know about German punctuality?",
+        "output": "Punctuality is highly valued in Germany. Being late, even by a few minutes, is considered disrespectful. If you expect to be delayed, it is important to call ahead and inform the other party."
+    },
+    {
+        "input": "What is the etiquette for giving gifts in Germany?",
+        "output": "If invited to a German home, bring a gift such as high-quality chocolates, wine, or flowers. Avoid red roses (romantic symbolism), carnations (mourning), and chrysanthemums or lilies (funerals). Gifts are usually opened upon receipt."
+    },
+    {
+        "input": "What should I do if I am invited to a German home?",
+        "output": "Arrive on time, as punctuality is important. Bring a small gift for the host, such as wine or flowers. Follow the host’s lead regarding shoes—some households expect guests to remove them. A thank-you note or call the next day is appreciated."
+    },
+    {
+        "input": "How should I behave in a German supermarket?",
+        "output": "In German supermarkets, efficiency is important. Have your payment ready, and pack your groceries quickly at checkout. People expect the process to be fast, and delays can cause frustration."
+    },
+    {
+        "input": "What are typical restaurant customs in Germany?",
+        "output": "In restaurants, it is common for each person to pay separately unless invited. Tipping is around 5-10%. Wait until the host gives a toast before drinking alcohol. If you join a shared table, there is no expectation to make conversation."
+    },
+    {
+        "input": "What is the proper way to tip in Germany?",
+        "output": "Tipping is expected in Germany, usually around 5-10% of the total bill. Instead of leaving cash on the table, hand the money directly to the server and round up the bill to the nearest convenient amount."
+    },
+    {
+        "input": "What should I know about German table manners?",
+        "output": "Follow Continental table manners: hold the fork in the left hand and the knife in the right. Keep hands visible on the table but do not rest elbows. Wait for the host to begin the meal and say 'Guten Appetit'."
+    },
+    {
+        "input": "What is considered rude in German public behavior?",
+        "output": "Speaking loudly in public, chewing gum while talking, and cutting in line are considered rude. Germans value order and expect people to follow social norms and personal space rules."
+    },
+    {
+        "input": "What are German attitudes toward personal space?",
+        "output": "Germans generally maintain a comfortable distance of at least 0.5 meters when conversing, but in public places like supermarket lines, personal space may be less strictly observed."
+    },
+    {
+        "input": "How do Germans handle small talk?",
+        "output": "Small talk is not common in Germany. Conversations tend to be direct and focused on meaningful topics. Discussions about politics, philosophy, and current events are often preferred over casual chit-chat."
+    },
+    {
+        "input": "What are German attitudes toward work and hierarchy?",
+        "output": "German workplaces value efficiency and hierarchy. People show deference to authority, and there is a preference for structured communication and formal relationships, especially with superiors."
+    },
+    {
+        "input": "How do Germans prefer to communicate in business settings?",
+        "output": "Germans prefer clear, direct, and structured communication in business. Meetings follow strict agendas, and decisions are documented in writing. Emotion and exaggeration are generally avoided."
+    },
+    {
+        "input": "How should I behave during a business meeting in Germany?",
+        "output": "Arrive on time, follow the agenda, and communicate directly. Do not interrupt others while they are speaking. Maintain eye contact when addressing someone, and follow formal etiquette when entering a room."
+    },
+    {
+        "input": "How are decisions made in German workplaces?",
+        "output": "German decision-making is structured and thorough. Discussions may take time, but once a decision is made, it is expected to be followed. There is a strong emphasis on written documentation."
+    },
+    {
+        "input": "How should I dress for a professional setting in Germany?",
+        "output": "Business attire in Germany is generally conservative and formal. Dark suits are standard for men, while women wear professional dresses or suits. Academic settings may have more relaxed dress codes."
+    },
+    {
+        "input": "What should I do if I accidentally bump into someone in Germany?",
+        "output": "If you accidentally bump into someone, immediately apologize by saying 'Entschuldigung, das war nicht meine Absicht' (Excuse me, that wasn’t my intention)."
+    },
+    {
+        "input": "How do Germans view rules and regulations?",
+        "output": "Germans generally respect rules and regulations, which help provide structure and predictability. Following the rules is seen as a way to maintain efficiency and social order."
+    },
+    {
+        "input": "What are the typical German attitudes toward personal relationships?",
+        "output": "Germans tend to keep personal and professional lives separate. Friendships develop slowly but are deep and lasting. Directness in communication is valued, even among friends."
+    },
+    {
+        "input": "What are German attitudes toward privacy?",
+        "output": "Germans value privacy and tend to separate public and private life. Personal questions may be seen as intrusive. Professional and social relationships are often kept distinct."
+    },
+    {
+        "input": "How should I behave in a German office?",
+        "output": "In German offices, formality is expected. Knock before entering, follow the hierarchy, and respect personal workspaces. Efficiency and professionalism are highly valued."
+    },
+    {
+        "input": "What should I know about German public transportation etiquette?",
+        "output": "On public transportation, keep noise levels low, avoid taking up extra seats, and allow passengers to exit before boarding. Tickets are often checked, and fare evasion is taken seriously."
+    },
+    {
+        "input": "How do Germans handle invitations?",
+        "output": "If invited to an event, respond promptly. Arriving on time is crucial. If invited to a meal, a thank-you call or note afterward is appreciated."
+    },
+    {
+        "input": "How do Germans view time management?",
+        "output": "Germans highly value punctuality and efficient scheduling. Being late is seen as disrespectful, and meetings follow strict agendas. Planning is an essential part of both personal and professional life."
+    },
+    {
+        "input": "What is the role of structure and rules in German society?",
+        "output": "Germans appreciate structure, rules, and regulations as they provide stability and predictability. Once a process is established, there is little need to change it unless absolutely necessary."
+    },
+    {
+        "input": "How do Germans approach personal space?",
+        "output": "Germans generally maintain a moderate distance when interacting, about 0.5 meters. However, in crowded places like supermarkets or public transport, personal space may be limited."
+    },
+    {
+        "input": "What should I know about eye contact in Germany?",
+        "output": "Direct eye contact is important in Germany as it signals confidence and sincerity. During conversations, particularly in business, maintaining eye contact is expected."
+    },
+    {
+        "input": "How do Germans handle conflict in communication?",
+        "output": "Germans tend to be direct and factual in communication. They address issues openly and expect honest discussions without excessive politeness or avoidance."
+    },
+    {
+        "input": "What are German attitudes toward personal finance?",
+        "output": "Germans are generally financially cautious and prefer saving over spending. Debt is often avoided, and financial matters are considered private topics."
+    },
+    {
+        "input": "How do Germans celebrate birthdays?",
+        "output": "It is common for the birthday person to invite friends or colleagues and provide food or drinks. Bringing small gifts is appreciated, and congratulating someone before their actual birthday is considered bad luck."
+    },
+    {
+        "input": "What are some common German superstitions?",
+        "output": "Some Germans believe that wishing someone a happy birthday before their actual birthday brings bad luck. Knocking on wood is also a common way to prevent bad luck."
+    },
+    {
+        "input": "How should I behave in a German elevator?",
+        "output": "Germans generally do not engage in small talk in elevators. A simple greeting when entering and exiting is sufficient, and personal space should be respected."
+    },
+    {
+        "input": "How do Germans perceive silence in conversation?",
+        "output": "Germans are comfortable with silence in conversations. They do not feel the need to fill pauses with small talk and prefer meaningful discussions over casual chatter."
+    },
+    {
+        "input": "How do Germans express disagreement?",
+        "output": "Germans tend to be direct when expressing disagreement. They value clear arguments and logical reasoning rather than emotional responses."
+    },
+    {
+        "input": "What are some common workplace habits in Germany?",
+        "output": "Workplaces in Germany are structured, and employees are expected to be punctual, efficient, and professional. Casual socializing during work hours is minimal."
+    },
+    {
+        "input": "How do Germans view hierarchy in the workplace?",
+        "output": "Hierarchy is respected in German workplaces, and authority figures are given due recognition. However, decision-making processes are often based on expertise rather than mere rank."
+    },
+    {
+        "input": "How should I behave in a shared public space in Germany?",
+        "output": "Germans expect order and politeness in public spaces. Speaking loudly, cutting in line, and excessive public displays of affection are generally frowned upon."
+    },
+    {
+        "input": "What are the customs for wedding celebrations in Germany?",
+        "output": "German weddings often include traditional customs like sawing a log together to symbolize teamwork. Guests usually give practical gifts, and money is commonly gifted in creative ways."
+    },
+    {
+        "input": "How do Germans view education and academic titles?",
+        "output": "Academic titles are highly respected in Germany. It is common to address people by their academic title in formal settings."
+    },
+    {
+        "input": "What are common transportation habits in Germany?",
+        "output": "Public transportation is widely used and punctuality is expected. Ticket checks are frequent, and fare evasion is taken seriously."
+    },
+    {
+        "input": "How do Germans celebrate Christmas?",
+        "output": "Christmas is widely celebrated with festive markets, Advent calendars, and family gatherings. December 24th (Heiligabend) is the main day for gift-giving."
+    },
+    {
+        "input": "What is the German attitude toward nature and the environment?",
+        "output": "Germans place high importance on environmental protection. Recycling is strictly followed, and outdoor activities like hiking are popular."
+    },
+    {
+        "input": "How do Germans react to public displays of affection?",
+        "output": "Public displays of affection, such as kissing and hugging, are generally accepted but should be kept moderate, especially in formal settings."
+    },
+    {
+        "input": "What are typical sports interests in Germany?",
+        "output": "Football (soccer) is the most popular sport in Germany, followed by handball, cycling, and winter sports like skiing."
+    },
+    {
+        "input": "How do Germans view health and wellness?",
+        "output": "Health is taken seriously in Germany. Many people engage in outdoor activities, and alternative medicine like homeopathy is widely accepted."
+    },
+    {
+        "input": "What should I know about parking in Germany?",
+        "output": "Parking rules are strictly enforced in Germany. Unauthorized parking can result in fines or towing, and designated parking areas should be used."
+    },
+    {
+        "input": "How do Germans handle work-life balance?",
+        "output": "Work-life balance is important in Germany. Employees typically separate work and personal life, and overtime is less common compared to other countries."
+    },
+    {
+        "input": "What is the role of apprenticeships in Germany?",
+        "output": "Germany has a strong apprenticeship system where students receive practical training alongside education, often leading to full-time employment."
+    },
+    {
+        "input": "How do Germans handle friendships?",
+        "output": "German friendships take time to develop but are long-lasting. Directness is appreciated, and trust is highly valued in friendships."
+    },
+    {
+        "input": "How do Germans react to humor?",
+        "output": "German humor is often dry and can be sarcastic. Jokes are appreciated in casual settings but should be avoided in formal situations."
+    },
+    {
+        "input": "What is a typical German breakfast?",
+        "output": "A typical German breakfast includes bread rolls, butter, cheese, cold cuts, and jam. Eggs and muesli are also common."
+    },
+    {
+        "input": "What are typical German wedding gifts?",
+        "output": "Money is a common wedding gift in Germany, often presented in a creative way. Practical gifts like household items are also appreciated."
+    },
+    {
+        "input": "How do Germans view road safety?",
+        "output": "Germany has strict road safety laws. The Autobahn has sections without speed limits, but responsible driving is expected. Traffic violations carry heavy fines."
+    },
+    {
+        "input": "How do Germans celebrate Easter?",
+        "output": "Easter in Germany includes traditions like egg hunts, decorating eggs, and special meals. Many families attend church services."
+    },
+    {
+        "input": "How should I behave when using German public transportation?",
+        "output": "Keep noise levels low, offer seats to the elderly, and have your ticket ready for inspections. Eating is generally discouraged on public transport."
+    },
+    {
+        "input": "What is the German approach to personal hygiene?",
+        "output": "Personal hygiene is taken seriously in Germany. Daily showers and the use of deodorant are expected, especially in social or professional settings."
+    },
+    {
+        "input": "How do Germans handle queuing?",
+        "output": "Germans generally respect queues and do not tolerate cutting in line. Supermarket checkouts are fast-paced, and efficiency is expected."
+    },
+    {
+        "input": "What are some popular German idioms?",
+        "output": "Some common German idioms include 'Jetzt geht’s um die Wurst' (Now it’s serious) and 'Das ist nicht mein Bier' (That’s not my problem)."
+    },
+    {
+        "input": "How do Germans celebrate New Year's Eve?",
+        "output": "New Year's Eve (Silvester) is celebrated with fireworks, parties, and traditional foods like raclette. 'Dinner for One' is a popular TV tradition."
+    },
+    {
+        "input": "What should I know about garbage disposal in Germany?",
+        "output": "Recycling is highly structured in Germany. Different bins are used for paper, plastic, organic waste, and general trash, and proper sorting is expected."
+    }
+]
