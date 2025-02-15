@@ -30,14 +30,15 @@ The final model can be found and tested at https://huggingface.co/johannesromisc
 We pull the model from ollama and add a System Prompt by building from our modelfile ```modelfile```.
 
 ```python
-ollama create culture14B_rank16_CoT_Data_simpleprompt -f models/modelfile
+ollama create culture14B_rank16_CoT_Data_simpleprompt -f modelfile
 ```
 
 This should align the model with its primary objective of functioning as an assistant.
 
 ## Telegram as UI
-For the final step, we use the ollama telegram API https://github.com/ruecat/ollama-telegram and tweak it slighty to exclude the reasoning part enclosed by think tags from the final answer.
-Config is done in ```ollama-telegram\.env```
+For the final step, we use the ollama telegram API https://github.com/ruecat/ollama-telegram and tweak it slighty to exclude the reasoning part enclosed by think tags from the final answer. (see ``ollama-telegram\bot\run.py lines 489-492``)
+Config is done in ```ollama-telegram\.env``` and requires specifying the ollama initmodel name (e.g. culture14B_rank16_CoT_Data_simpleprompt:latest), as well as user IDs and Telegram Bot Token.
+Setup is described in detail in ``ollama_telegram\README.md``
 
 # Models
 All models are distilled DeepseekR1 adaptations.
